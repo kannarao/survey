@@ -1,2 +1,2 @@
-This is my first app in django
+This is my first Web application
 Copyrights@kannarao
