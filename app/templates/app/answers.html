@@ -30,12 +30,18 @@
 
         <form id="myForm" method="post" action="/thankss/" role="post">
           {% csrf_token %}
-            <p id="left">How is the hospitality?</p>
-	     <input class="ipt" type=text name="an1">
-   	    <p id="left">Is your problem Addressed?</p>
-	     <input class="ipt" type=text name="an2">
-    	    <p id="left">Any Suggestions?</p>
-   	     <input class="ipt" type=text name="an3""><br><br>
+            <p>How is the hospitality?</p>
+	     
+             <textarea rows="2" cols="152" name="an1"></textarea>
+
+   	    <p>Is your problem Addressed?</p>
+	     
+	     <textarea rows="2" cols="152" name="an2"></textarea>
+
+    	    <p>Any Suggestions?</p>
+   	     
+	     <textarea rows="2" cols="152" name="an3"></textarea>
+<br><br><br>
             <input id="blue" type="submit" name="submit" value="Submit" />
         </form>
 <div id="block"></div>
