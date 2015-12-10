@@ -1,0 +1,34 @@
+{% extends 'app/base.html' %}
+{% block content %}
+<br><br>
+<h1 align="center">How did you like our Service?</h1>
+<div id="order">
+
+<form class="formDisplay" method="post" action="/rating/">
+          {% csrf_token %}
+   	     <input type=hidden name="val" value="excellent">
+             <input id="btn" type="submit" value=excellent>
+</form> 
+
+<form class="formDisplay" method="post" action="/rating/">
+          {% csrf_token %}
+   	     <input type=hidden name="val" value="good">
+             <input id="btn" type="submit" value=good>
+</form> 
+
+<form class="formDisplay" method="post" action="/rating/">
+          {% csrf_token %}
+   	     <input type=hidden name="val" value="average">
+             <input id="btn" type="submit" value=average>
+</form> 
+
+<form class="formDisplay" method="post" action="/rating/">
+          {% csrf_token %}
+   	     <input type=hidden name="val" value="worst">
+             <input id="btn" type="submit" value=worst>
+</form>
+</div>
+{% endblock %}
+
+
+

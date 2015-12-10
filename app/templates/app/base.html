@@ -1,0 +1,27 @@
+{% load static%}
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'app/style.css' %}" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{% static 'app/ajaxCall.js' %}"></script>
+</head>
+<body style="background:#DBDBDB;">
+<div class="container-fluid" style=background-color:orange;">
+<a class="feed" href="/"><h4 class="pull-left">FeedBack App</h4></a>
+</div>
+<br><br>
+
+{% block content %}
+
+{% endblock %}
+<br>
+
+<footer class="clearfix" id=footer style="background-color:orange;position:bottom;">
+  <p>@example.com2015</p>
+</footer>
+</body>
+
+
+
+

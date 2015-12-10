@@ -1,0 +1,11 @@
+*.pyc
+*.swo
+*.swp
+*.swn
+*.swm
+migrations
+*.html~
+*.py~
+*.js~
+*.md~
+*.css~
